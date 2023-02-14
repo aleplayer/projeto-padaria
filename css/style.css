@@ -23,10 +23,11 @@ body{
  background-size: cover;
  background-position-y: 0px;
  background-repeat: no-repeat;
+ 
 }
 
 header{
-    width: 100%;
+    width: 100%;  /* observação pode ajudar a resolver a alteração no width e height */
     height: 7vh;
 background-color: rgba(22, 22, 22, 0.2);
  
@@ -162,7 +163,7 @@ menu-content .list-itens a: :hover:before{
     
 
 }
-@media only screen and (max-width: 390px)  {
+@media only screen and (max-width: 450px)  {
     
 
     ul{ 
