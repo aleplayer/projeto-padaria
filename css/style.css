@@ -13,6 +13,7 @@ html{
     font-size: 62.5%;
     color: white;
     font-family: 'lato' sans-serif;
+    max-width: 100%;
 }
 
 
@@ -161,10 +162,58 @@ menu-content .list-itens a: :hover:before{
     
 
 }
+@media only screen and (max-width: 390px)  {
+    
+
+    ul{ 
+    flex-direction: column;
+    
+    }
+    .main-content{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .primary-text{
+        flex-direction: column;
+        width: 100vw;
+        padding-right: 10rem ;
+
+    }
+    .second-text{
+        flex-direction: column;
+        width: 100vw;
+        padding-right: 10rem ;
+
+    } 
+
+    .btns{
+        flex-direction: column;
+        padding-left: 40px;
+       
+
+    }
+    
+    h1{
+
+
+    }
+        }
 
 
 
 
+
+        
+    
+        @media only screen and (max-width:590px) {
+            ul{
+                flex-direction: column;
+            }
+            
+        }
+
+
+    
 
 
 
