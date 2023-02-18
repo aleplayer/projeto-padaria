@@ -162,14 +162,40 @@ menu-content .list-itens a: :hover:before{
 .btns button:hover:before{
     
 
+
+
 }
-@media only screen and (max-width: 450px)  {
+@media only screen and (max-width: 390px)  {
+
+    
+
+    
+    h1{
+        padding-top: 10rem;
+        flex-direction: column;
+        padding-bottom: 30px;
+        
+    }
+
+    img{
+        width: 30px;
+        height: 50px;
+    }
+    
+
+    .menu-content{
+        flex-direction: column;
+        margin-top: 50px;
+        
+    }
     
 
     ul{ 
     flex-direction: column;
     
     }
+
+    
     .main-content{
         flex-direction: column;
         width: 100vw;
@@ -195,6 +221,9 @@ menu-content .list-itens a: :hover:before{
     }
     
     h1{
+        flex-direction: column;
+        
+        
 
 
     }
@@ -205,15 +234,7 @@ menu-content .list-itens a: :hover:before{
 
 
         
-    
-        @media only screen and (max-width:590px) {
-            ul{
-                flex-direction: column;
-            }
-            
-        }
-
-
+        
     
 
 
