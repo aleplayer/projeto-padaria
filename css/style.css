@@ -113,7 +113,7 @@ menu-content .list-itens a: :hover:before{
     position: relative;
   top: -70px;
   left: 30px;
-    color: #fff;
+    color: #ff00ea;
     margin-right: 10%;
     text-align: center;
 }
@@ -204,6 +204,7 @@ menu-content .list-itens a: :hover:before{
         flex-direction: column;
         width: 100vw;
         padding-right: 10rem ;
+        color: #ff00ea;
 
     }
     .second-text{
