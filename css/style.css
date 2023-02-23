@@ -215,18 +215,15 @@ menu-content .list-itens a: :hover:before{
 
     .btns{
         flex-direction: column;
-        padding-left: 40px;
+        padding-left: 7rem;
        
 
     }
     
     h1{
         flex-direction: column;
-        
-        
-
-
-    }
+        }
+       
         }
 
 
